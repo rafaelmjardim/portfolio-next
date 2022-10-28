@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
+
+import Link from 'next/link'
+
 const Home: NextPage = () => {
   return (
     <div className={styles.index}>
@@ -12,8 +15,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Home</h1>
+      <h1 className={styles.color}>Home</h1>
 
+      <Link href="/about">
+        <a>About</a>
+      </Link>
+      
     </div>
   )
 }
