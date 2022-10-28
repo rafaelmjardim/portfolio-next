@@ -1,0 +1,26 @@
+@import '../../styles/config.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 20rem;
+
+    &_menu {
+       display: flex;
+       justify-content: center;
+       gap: 2.5rem;
+    }
+
+    &_action{
+
+        &_button {
+            background-color: transparent;
+            color: $color-orange-secundary;
+            border: .1rem solid $color-orange-secundary;
+            width: 14rem;
+            height: 4.5rem;
+            border-radius: .8rem;
+        }
+    }
+}
