@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.scss'
 import Header from '../components/Header/Header';
 import Link from 'next/link'
 
+import MainPage from './MainPage/MainPage';
+
 const Home: NextPage = () => {
   return (
     <div className={styles.index}>
@@ -14,6 +16,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
+
+      <MainPage />
 
       {/* <h1 className={styles.color}>Home</h1>
 
