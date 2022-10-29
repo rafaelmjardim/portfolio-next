@@ -10,7 +10,22 @@
        display: flex;
        justify-content: center;
        gap: 2.5rem;
+
+        a {
+            font-weight: 600;
+            transition: 0.3s;
+            
+            &:hover {
+                color: $color-orange-secundary;
+            }
+        }
+
+
+        span {
+            color: $color-orange-secundary;
+        }
     }
+    
 
     &_action{
 
@@ -21,6 +36,14 @@
             width: 14rem;
             height: 4.5rem;
             border-radius: .8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #00000040;
+            }
         }
     }
 }
+

@@ -14,7 +14,7 @@ const Header = () => {
             </div>
 
             <ul className={styles.header_menu}>
-                <li><a href="#">Home</a></li>
+                <li><a href="#"><span>Home</span></a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Habilidades</a></li>
                 <li><a href="#">Projetos</a></li>
