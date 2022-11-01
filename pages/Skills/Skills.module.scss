@@ -13,7 +13,6 @@
         flex-direction: column;
         width: 71.4rem;
         height: 100%;
-        background-color: red;
 
         &_title {
             font-family: $font-secundary;
@@ -28,10 +27,23 @@
 
     &_icons {
         display: flex;
-        justify-content: end;
-        align-items: end;
+        justify-content: flex-end;
+        align-items: flex-end;
         width: 48rem;
         height: 100%;
-        background-color: blue;
+
+        &_group {
+            display: grid;
+            grid-template-columns: 15% 15% 15% 15% 15%;
+            gap: 1.5rem;
+
+            &_box {
+                background-color: $color-secundary;
+                display: flex;
+                align-items: center;
+                padding: .5rem;
+                border-radius: .4rem;
+            }
+        }
     }
 }
