@@ -7,6 +7,7 @@ import Header from '../components/Header/Header';
 
 import MainPage from './MainPage/MainPage';
 import About from './About/About';
+import Skills from './Skills/Skills';
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         <Header/>
         <MainPage />
         <About/>
+        <Skills/>
       </div>
     
       {/* <h1 className={styles.color}>Home</h1>
