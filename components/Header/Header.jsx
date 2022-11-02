@@ -10,6 +10,7 @@ const Header = () => {
                     src={Logo}
                     width={102}
                     height={110.78}
+                    placeholder="blur"
                 />
             </div>
 

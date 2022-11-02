@@ -1,0 +1,12 @@
+@import '../../styles/config.scss';
+
+.footer {
+    position: absolute;
+    bottom: 2rem;
+    align-items: center;
+    font-size: 1.4rem;
+
+    span {
+        color: $color-orange;
+    }
+}   

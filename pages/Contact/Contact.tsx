@@ -9,6 +9,7 @@ import linkedin from '../../public/icons/linkedin.svg';
 import github from '../../public/icons/github.svg';
 import email from '../../public/icons/email.svg';
 import whatsapp from '../../public/icons/whatsapp.svg';
+import Footer from '../../components/Footer/Footer';
 
 const Contact = () => {
    
@@ -33,7 +34,7 @@ const Contact = () => {
 
                   
                     <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://www.instagram.com/rafaelmjardim/')}>
-                        <Image src={instagram}/>
+                        <Image className={styles.contact_content_icons_icon_img} src={instagram}/>
                     </div>
                     
 
@@ -55,6 +56,7 @@ const Contact = () => {
 
                 </div>
             </div>
+            <Footer/>
         </section>
     );
 }

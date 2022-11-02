@@ -21,18 +21,11 @@ const Home: NextPage = () => {
       
       <div className={styles.home_main}>
         <Header/>
-        <MainPage />
+        <MainPage/>
         <About/>
         <Skills/>
         <Contact/>
       </div>
-    
-      {/* <h1 className={styles.color}>Home</h1>
-
-      <Link href="/about">
-        <a>About</a>
-      </Link> */}
-      
     </div>
   )
 }

@@ -5,9 +5,12 @@ const About = () => {
     return (
         <section id='about' className={styles.about}>
             <div className={styles.about_perfil}>
-                <Image className={styles.about_perfil_img} 
+                <Image 
+                    className={styles.about_perfil_img} 
                     src={imgPerfil} 
-                    alt='Imagem de perfil'>
+                    alt='Imagem de perfil'
+                    placeholder='blur'
+                >
                 </Image>
             </div>
 
