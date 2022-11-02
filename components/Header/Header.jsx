@@ -18,7 +18,7 @@ const Header = () => {
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
             
             <div className={styles.header_action}>
