@@ -11,16 +11,17 @@
     &_content {
         display: flex;
         flex-direction: column;
-        width: 71.4rem;
+        width: 55rem;
         height: 100%;
 
         &_title {
             font-family: $font-secundary;
-            font-size: 6rem;
+            font-size: 4.5rem;
         }
 
         &_txt {
-            font-size: 2rem;
+            font-size: 1.8rem;
+            margin-top: 2rem;
         }
 
     }
