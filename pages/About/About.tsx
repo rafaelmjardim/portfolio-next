@@ -3,7 +3,7 @@ import Image from 'next/image';
 import imgPerfil from '../../public/perfil.jpg';
 const About = () => {
     return (
-        <section className={styles.about}>
+        <section id='about' className={styles.about}>
             <div className={styles.about_perfil}>
                 <Image className={styles.about_perfil_img} 
                     src={imgPerfil} 
