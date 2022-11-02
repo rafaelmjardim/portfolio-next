@@ -32,34 +32,26 @@ const Contact = () => {
                 <div className={styles.contact_content_icons}>
 
                   
-                    <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://www.linkedin.com/in/rafaelmjardim/')}>
+                    <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://www.instagram.com/rafaelmjardim/')}>
                         <Image src={instagram}/>
                     </div>
                     
 
-                    <Link href="https://www.linkedin.com/in/rafaelmjardim/" target="_blank">
-                        <div className={styles.contact_content_icons_icon}>
-                            <Image src={linkedin}/>
-                        </div>
-                    </Link>
+                    <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://www.linkedin.com/in/rafaelmjardim/')}>
+                        <Image src={linkedin}/>
+                    </div>
                     
-                    <Link href="https://github.com/rafaelmjardim" target="_blank">
-                        <div className={styles.contact_content_icons_icon}>
-                            <Image src={github}/>
-                        </div>
-                    </Link>
+                    <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://github.com/rafaelmjardim')}>
+                        <Image src={github}/>
+                    </div>
 
-                    <Link href="rafaelmjardim@gmail.com" target="_blank">
-                        <div className={styles.contact_content_icons_icon}>
-                            <Image src={email}/>
-                        </div>
-                    </Link>
+                    <div className={styles.contact_content_icons_icon}>
+                        <Image src={email}/>
+                    </div>
 
-                    <Link href="https://api.whatsapp.com/send?phone=5551998747124&text=Ol%C3%A1%2C%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!" target="_blank">
-                        <div className={styles.contact_content_icons_icon}>
-                            <Image src={whatsapp}/>
-                        </div>
-                    </Link>
+                    <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://api.whatsapp.com/send?phone=5551998747124&text=Ol%C3%A1%2C%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!')}>
+                        <Image src={whatsapp}/>
+                    </div>
 
                 </div>
             </div>
