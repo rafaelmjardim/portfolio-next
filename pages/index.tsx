@@ -9,6 +9,7 @@ import MainPage from './MainPage/MainPage';
 import About from './About/About';
 import Skills from './Skills/Skills';
 import Contact from './Contact/Contact';
+import Projects from './Projects/Projects';
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
         <MainPage/>
         <About/>
         <Skills/>
+        <Projects/>
         <Contact/>
       </div>
     </div>
