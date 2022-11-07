@@ -1,0 +1,14 @@
+@import '../../styles/config.scss';
+
+.start_project {
+    width: 90rem;
+    height: 14rem;
+    background-color: $color-card;
+    margin: 0 auto;
+    border-radius: 2rem;
+    position: absolute;
+    top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}

@@ -10,6 +10,7 @@ import github from '../../public/icons/github.svg';
 import email from '../../public/icons/email.svg';
 import whatsapp from '../../public/icons/whatsapp.svg';
 import Footer from '../../components/Footer/Footer';
+import StartProject from '../../components/StartProject/StartProject';
 
 const Contact = () => {
    
@@ -19,6 +20,7 @@ const Contact = () => {
 
     return (
         <section id='contact' className={styles.contact}>
+            <StartProject/>
             <div className={styles.contact_content}>
                 <div className={styles.contact_content_logo}>
                     <Image src={logo}/>
