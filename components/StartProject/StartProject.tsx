@@ -1,4 +1,7 @@
-import styles from './StartProject.module.scss';7
+import styles from './StartProject.module.scss';
+
+import Image from 'next/image';
+import handup from '../../public/icons/handup.png';
 
 const StartProject = () => {
     return (
@@ -9,7 +12,10 @@ const StartProject = () => {
              Devíamos arranjar uma hora para conversar.
              Vou preparar o café.</p>
 
-             <button className={styles.start_project_button}>Vamos fazer isso</button>
+             <button className={styles.start_project_button}>
+                <Image src={handup}></Image> 
+                Vamos fazer isso
+            </button>
         </div>
     );
 }
