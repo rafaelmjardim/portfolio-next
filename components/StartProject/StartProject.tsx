@@ -7,6 +7,7 @@ type Info = {
     title: string
     txt: string
     btn: string
+    btnLink: string
 }
 
 const StartProject = (props: Info) => {
@@ -20,7 +21,7 @@ const StartProject = (props: Info) => {
                 {props.txt}
             </p>
 
-            <Link href={"https://api.whatsapp.com/send?phone=5551998747124&text=Ol%C3%A1%2C%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"}>
+            <Link href={props.btnLink}>
                 <button className={styles.start_project_button}>
                     <Image src={handup}></Image>
                     {props.btn}

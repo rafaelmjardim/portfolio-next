@@ -26,6 +26,7 @@ const Contact = () => {
                 Devíamos arranjar uma hora para conversar.
                 Vou preparar o café.'
                 btn='Vamos Fazer isso'
+                btnLink='https://api.whatsapp.com/send?phone=5551998747124&text=Ol%C3%A1%2C%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!'
             />
             <div className={styles.contact_content}>
                 <div className={styles.contact_content_logo}>
