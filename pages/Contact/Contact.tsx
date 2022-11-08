@@ -20,7 +20,13 @@ const Contact = () => {
 
     return (
         <section id='contact' className={styles.contact}>
-            <StartProject/>
+            <StartProject 
+                title='Iniciar um projeto'
+                txt='Interessado em meu trabalho?
+                Devíamos arranjar uma hora para conversar.
+                Vou preparar o café.'
+                btn='Vamos Fazer isso'
+            />
             <div className={styles.contact_content}>
                 <div className={styles.contact_content_logo}>
                     <Image src={logo}/>

@@ -3,19 +3,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 import handup from '../../public/icons/handup.png';
 
-const StartProject = () => {
+type Info = {
+    title: string
+    txt: string
+    btn: string
+}
+
+const StartProject = (props: Info) => {
     return (
         <div className={styles.start_project}>
-            <h2 className={styles.start_project_title}>Iniciar um projeto</h2>
+            <h2 className={styles.start_project_title}>
+                {props.title}
+            </h2>
 
-            <p className={styles.start_project_txt}>Interessado em meu trabalho?
-             Devíamos arranjar uma hora para conversar.
-             Vou preparar o café.</p>
+            <p className={styles.start_project_txt}>
+                {props.txt}
+            </p>
 
             <Link href={"https://api.whatsapp.com/send?phone=5551998747124&text=Ol%C3%A1%2C%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"}>
                 <button className={styles.start_project_button}>
                     <Image src={handup}></Image>
-                    Vamos fazer isso
+                    {props.btn}
                 </button>
             </Link>
         </div>
