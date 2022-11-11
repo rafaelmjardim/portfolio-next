@@ -23,43 +23,43 @@ const Skills = () => {
             <div className={styles.skills_icons}>
                 <div className={styles.skills_icons_group}>
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={html}/>
+                        <Image alt="Icons Skills" src={html}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={css}/>
+                        <Image alt="Icons Skills" src={css}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={js}/>
+                        <Image alt="Icons Skills" src={js}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={git}/>
+                        <Image alt="Icons Skills" src={git}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={github}/>
+                        <Image alt="Icons Skills" src={github}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={vscode}/>
+                        <Image alt="Icons Skills" src={vscode}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={angular}/>
+                        <Image alt="Icons Skills" src={angular}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={sass}/>
+                        <Image alt="Icons Skills" src={sass}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={react}/>
+                        <Image alt="Icons Skills" src={react}/>
                     </div>
                     
                     <div className={styles.skills_icons_group_box}>
-                        <Image src={ts}/>
+                        <Image alt="Icons Skills" src={ts}/>
                     </div>
                 </div>
             </div>

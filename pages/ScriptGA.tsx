@@ -3,8 +3,8 @@ import Script from "next/script";
 const ScriptGA = () => {
     return (
         <>
-                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-7RFG93YESW"></Script>
-                <Script>
+                <Script id='script' async src="https://www.googletagmanager.com/gtag/js?id=G-7RFG93YESW"></Script>
+                <Script id="script2">
                 
                 {`window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}

@@ -30,7 +30,9 @@ const Contact = () => {
             />
             <div className={styles.contact_content}>
                 <div className={styles.contact_content_logo}>
-                    <Image src={logo}/>
+                    <Image 
+                    alt="Icons"
+                    src={logo}/>
                 </div>
 
                 
@@ -43,24 +45,34 @@ const Contact = () => {
 
                   
                     <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://www.instagram.com/rafaelmjardim/')}>
-                        <Image className={styles.contact_content_icons_icon_img} src={instagram}/>
+                        <Image className={styles.contact_content_icons_icon_img} 
+                        alt="Icons"
+                        src={instagram}/>
                     </div>
                     
 
                     <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://www.linkedin.com/in/rafaelmjardim/')}>
-                        <Image src={linkedin}/>
+                        <Image 
+                        alt="Icons"
+                        src={linkedin}/>
                     </div>
                     
                     <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://github.com/rafaelmjardim')}>
-                        <Image src={github}/>
+                        <Image 
+                        alt="Icons"
+                        src={github}/>
                     </div>
 
                     <div className={styles.contact_content_icons_icon}>
-                        <Image src={email}/>
+                        <Image 
+                        alt="Icons"
+                        src={email}/>
                     </div>
 
                     <div className={styles.contact_content_icons_icon} onClick={() => openNewTab('https://api.whatsapp.com/send?phone=5551998747124&text=Ol%C3%A1%2C%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!')}>
-                        <Image src={whatsapp}/>
+                        <Image 
+                        alt="Icons"
+                        src={whatsapp}/>
                     </div>
 
                 </div>

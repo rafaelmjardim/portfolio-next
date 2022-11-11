@@ -7,6 +7,7 @@ const Header = () => {
         <div className={styles.header}>
             <div className={styles.header_logo}>
                 <Image 
+                    alt='Logo'
                     src={Logo}
                     width={102}
                     height={110.78}

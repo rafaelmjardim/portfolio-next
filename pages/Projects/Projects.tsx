@@ -26,7 +26,8 @@ const Projects = () => {
                 <div className={styles.projects_main_gallery}>
                     <div className={styles.projects_main_gallery_box}>
                         <Image 
-                            src={gallery1} 
+                            src={gallery1}
+                            alt="Imagem da galeria" 
                             onClick={() => handleOpenNewTab('https://www.mr3licitacoes.com.br/')}
                         ></Image>
                     </div> 
@@ -34,6 +35,7 @@ const Projects = () => {
                     <div className={styles.projects_main_gallery_box}>
                         <Image 
                             src={gallery2}
+                            alt="Imagem da galeria"
                             onClick={() => handleOpenNewTab('https://coffeelayout.vercel.app/')}
                         ></Image>
                     </div> 
@@ -41,6 +43,7 @@ const Projects = () => {
                     <div className={styles.projects_main_gallery_box}>
                         <Image 
                             src={gallery3}
+                            alt="Imagem da galeria"
                             onClick={() => handleOpenNewTab('https://travel-landinpage.vercel.app/')}
                         ></Image>
                     </div> 
@@ -48,6 +51,7 @@ const Projects = () => {
                     <div className={styles.projects_main_gallery_box}>
                         <Image 
                             src={gallery4}
+                            alt="Imagem da galeria"
                             onClick={() => handleOpenNewTab('https://spa-angular-xi.vercel.app/')}
                         ></Image>
                     </div> 
@@ -55,6 +59,7 @@ const Projects = () => {
                     <div className={styles.projects_main_gallery_box}>
                         <Image 
                             src={gallery5}
+                            alt="Imagem da galeria"
                             // onClick={() => handleOpenNewTab('')}
                         ></Image>
                     </div> 
@@ -62,6 +67,7 @@ const Projects = () => {
                     <div className={styles.projects_main_gallery_box}>
                         <Image 
                             src={gallery6}
+                            alt="Imagem da galeria"
                             onClick={() => handleOpenNewTab('https://login-angular.vercel.app/')}
                         ></Image>
                     </div> 

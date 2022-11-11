@@ -23,7 +23,7 @@ const StartProject = (props: Info) => {
 
             <Link href={props.btnLink}>
                 <button className={styles.start_project_button}>
-                    <Image src={handup}></Image>
+                    <Image src={handup} alt="Icon Handup"></Image>
                     {props.btn}
                 </button>
             </Link>
