@@ -60,7 +60,7 @@ const Projects = () => {
                         <Image 
                             src={gallery5}
                             alt="Imagem da galeria"
-                            // onClick={() => handleOpenNewTab('')}
+                            onClick={() => handleOpenNewTab('https://travel-website-eight-fawn.vercel.app/')}
                         ></Image>
                     </div> 
                    
