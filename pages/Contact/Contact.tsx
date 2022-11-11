@@ -15,7 +15,7 @@ import StartProject from '../../components/StartProject/StartProject';
 const Contact = () => {
    
     const openNewTab = (url: string) => {
-        window.open(url, '_blank', 'noopener, noreferrer');
+        window.open(url, '_blank');
     };
 
     return (

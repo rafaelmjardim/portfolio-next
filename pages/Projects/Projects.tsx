@@ -1,5 +1,6 @@
 import styles from './Projects.module.scss';
 
+import Link from 'next/link';
 import Image from 'next/image';
 import gallery1 from '../../public/capas/mr3.png';
 import gallery2 from '../../public/capas/galeria2.png';
@@ -9,6 +10,11 @@ import gallery5 from '../../public/capas/travel.png';
 import gallery6 from '../../public/capas/login.png';
 
 const Projects = () => {
+
+   const handleOpenNewTab = (url: string) => {
+        window.open(url, '_blank');
+    }
+
     return (
         <section id='projects' className={styles.projects}>
             <div className={styles.projects_header}>
@@ -19,27 +25,45 @@ const Projects = () => {
             <div className={styles.projects_main}>
                 <div className={styles.projects_main_gallery}>
                     <div className={styles.projects_main_gallery_box}>
-                        <Image src={gallery1}></Image>
+                        <Image 
+                            src={gallery1} 
+                            onClick={() => handleOpenNewTab('https://www.mr3licitacoes.com.br/')}
+                        ></Image>
                     </div> 
                    
                     <div className={styles.projects_main_gallery_box}>
-                        <Image src={gallery2}></Image>
+                        <Image 
+                            src={gallery2}
+                            onClick={() => handleOpenNewTab('https://coffeelayout.vercel.app/')}
+                        ></Image>
                     </div> 
                    
                     <div className={styles.projects_main_gallery_box}>
-                        <Image src={gallery3}></Image>
+                        <Image 
+                            src={gallery3}
+                            onClick={() => handleOpenNewTab('https://travel-landinpage.vercel.app/')}
+                        ></Image>
                     </div> 
                    
                     <div className={styles.projects_main_gallery_box}>
-                        <Image src={gallery4}></Image>
+                        <Image 
+                            src={gallery4}
+                            onClick={() => handleOpenNewTab('https://spa-angular-xi.vercel.app/')}
+                        ></Image>
                     </div> 
                    
                     <div className={styles.projects_main_gallery_box}>
-                        <Image src={gallery5}></Image>
+                        <Image 
+                            src={gallery5}
+                            // onClick={() => handleOpenNewTab('')}
+                        ></Image>
                     </div> 
                    
                     <div className={styles.projects_main_gallery_box}>
-                        <Image src={gallery6}></Image>
+                        <Image 
+                            src={gallery6}
+                            onClick={() => handleOpenNewTab('https://login-angular.vercel.app/')}
+                        ></Image>
                     </div> 
                     
                     
