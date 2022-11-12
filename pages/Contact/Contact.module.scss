@@ -9,6 +9,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    padding: 2rem 10rem;
+
+    @media (max-width: 720px) {
+        padding: 2rem 3rem;
+    }
 
     &_content {
         display: flex;
@@ -38,6 +43,10 @@
             justify-content: space-between;
             gap: 4rem;
             width: 100%;
+
+            @media (max-width: 400px) {
+                gap: 3rem;
+            }
 
             &_icon {
                 display: flex;
