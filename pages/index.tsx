@@ -13,6 +13,8 @@ import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import ScriptGA from './ScriptGA';
 
+// import { Triangle } from 'react-loader-spinner';
+
 const Home: NextPage = () => {
   return (
     <div className={styles.home}>

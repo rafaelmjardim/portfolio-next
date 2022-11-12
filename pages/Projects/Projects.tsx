@@ -7,13 +7,15 @@ import gallery2 from '../../public/capas/galeria2.png';
 import gallery3 from '../../public/capas/travel-turk.png';
 import gallery4 from '../../public/capas/payment.png';
 import gallery5 from '../../public/capas/travel.png';
-import gallery6 from '../../public/capas/login.png';
+import gallery6 from '../../public/capas/login.png'
+
+import handleNewTabLink from '../../components/handleNewTabLink';
 
 const Projects = () => {
 
-   const handleOpenNewTab = (url: string) => {
-        window.open(url, '_blank');
-    }
+    // const handleOpenNewTab = (url: string) => {
+    //     window.open(url, '_blank');
+    // }
 
     return (
         <section id='projects' className={styles.projects}>
@@ -29,7 +31,7 @@ const Projects = () => {
                             src={gallery1}
                             alt="Imagem da galeria" 
                             placeholder='blur'
-                            onClick={() => handleOpenNewTab('https://www.mr3licitacoes.com.br/')}
+                            onClick={() => handleNewTabLink('https://www.mr3licitacoes.com.br/')}
                         ></Image>
                     </div> 
                    
@@ -38,7 +40,7 @@ const Projects = () => {
                             src={gallery2}
                             alt="Imagem da galeria"
                             placeholder='blur'
-                            onClick={() => handleOpenNewTab('https://coffeelayout.vercel.app/')}
+                            onClick={() => handleNewTabLink('https://coffeelayout.vercel.app/')}
                         ></Image>
                     </div> 
                    
@@ -47,7 +49,7 @@ const Projects = () => {
                             src={gallery3}
                             alt="Imagem da galeria"
                             placeholder='blur'
-                            onClick={() => handleOpenNewTab('https://travel-landinpage.vercel.app/')}
+                            onClick={() => handleNewTabLink('https://travel-landinpage.vercel.app/')}
                         ></Image>
                     </div> 
                    
@@ -56,7 +58,7 @@ const Projects = () => {
                             src={gallery4}
                             alt="Imagem da galeria"
                             placeholder='blur'
-                            onClick={() => handleOpenNewTab('https://spa-angular-xi.vercel.app/')}
+                            onClick={() => handleNewTabLink('https://spa-angular-xi.vercel.app/')}
                         ></Image>
                     </div> 
                    
@@ -65,7 +67,7 @@ const Projects = () => {
                             src={gallery5}
                             alt="Imagem da galeria"
                             placeholder='blur'
-                            onClick={() => handleOpenNewTab('https://travel-website-eight-fawn.vercel.app/')}
+                            onClick={() => handleNewTabLink('https://travel-website-eight-fawn.vercel.app/')}
                         ></Image>
                     </div> 
                    
@@ -73,7 +75,7 @@ const Projects = () => {
                         <Image 
                             src={gallery6}
                             alt="Imagem da galeria"
-                            onClick={() => handleOpenNewTab('https://login-angular.vercel.app/')}
+                            onClick={() => handleNewTabLink('https://login-angular.vercel.app/')}
                         ></Image>
                     </div> 
                     

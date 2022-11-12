@@ -1,6 +1,7 @@
 import styles from './Header.module.scss';
 import Image from 'next/image';
 import Logo from "../../public/logo.png";
+import handleNewTabLink from '../handleNewTabLink';
 
 const Header = () => {
     return (
@@ -24,7 +25,7 @@ const Header = () => {
             </ul>
             
             <div className={styles.header_action}>
-                <button className={styles.header_action_button}>Contatar</button>
+                <button className={styles.header_action_button} onClick={() => handleNewTabLink('https://api.whatsapp.com/send?phone=5551998747124&text=Ol%C3%A1%2C%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!')}>Contatar</button>
             </div>
         </div>
 
