@@ -16,7 +16,7 @@ const MainPage = () => {
                 <p className={styles.main_page_subtitle}>Desenvolvedor Front-End e design gráfico.</p>
 
                 <div className={styles.main_page_actions}>
-                    <Link href='' download><button className={styles.main_page_actions_button} onClick={() => handleNewTabLink('/curriculo.pdf')}>Curriculo</button></Link>
+                    <Link href='' download><button className={styles.main_page_actions_button} onClick={() => handleNewTabLink('/curriculo.pdf')}>Currículo</button></Link>
                     <Link href=''><button className={styles.main_page_actions_button} onClick={() => handleNewTabLink('https://github.com/rafaelmjardim')}>GitHub</button></Link>
                 </div>
             </div>
