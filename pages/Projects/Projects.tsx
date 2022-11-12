@@ -28,6 +28,7 @@ const Projects = () => {
                         <Image 
                             src={gallery1}
                             alt="Imagem da galeria" 
+                            placeholder='blur'
                             onClick={() => handleOpenNewTab('https://www.mr3licitacoes.com.br/')}
                         ></Image>
                     </div> 
@@ -36,6 +37,7 @@ const Projects = () => {
                         <Image 
                             src={gallery2}
                             alt="Imagem da galeria"
+                            placeholder='blur'
                             onClick={() => handleOpenNewTab('https://coffeelayout.vercel.app/')}
                         ></Image>
                     </div> 
@@ -44,6 +46,7 @@ const Projects = () => {
                         <Image 
                             src={gallery3}
                             alt="Imagem da galeria"
+                            placeholder='blur'
                             onClick={() => handleOpenNewTab('https://travel-landinpage.vercel.app/')}
                         ></Image>
                     </div> 
@@ -52,6 +55,7 @@ const Projects = () => {
                         <Image 
                             src={gallery4}
                             alt="Imagem da galeria"
+                            placeholder='blur'
                             onClick={() => handleOpenNewTab('https://spa-angular-xi.vercel.app/')}
                         ></Image>
                     </div> 
@@ -60,6 +64,7 @@ const Projects = () => {
                         <Image 
                             src={gallery5}
                             alt="Imagem da galeria"
+                            placeholder='blur'
                             onClick={() => handleOpenNewTab('https://travel-website-eight-fawn.vercel.app/')}
                         ></Image>
                     </div> 
