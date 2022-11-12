@@ -7,7 +7,7 @@
     
 
     @media (max-width: 400px) {
-        display: none;
+        justify-content: center;
     }
     
 
@@ -38,6 +38,9 @@
     
 
     &_action{
+        @media (max-width: 400px) {
+            display: none;
+        }
 
         &_button {
             background-color: transparent;

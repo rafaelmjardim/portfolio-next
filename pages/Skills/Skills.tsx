@@ -18,7 +18,9 @@ const Skills = () => {
         <section id='skills' className={styles.skills}>
             <div className={styles.skills_content}>
                 <h2 className={styles.skills_content_title}>Minhas Habilidade e Tecnologias</h2>
-                <p className={styles.skills_content_txt}>Essas são as ferramentas que utilizo diariamente nos meu projetos...</p>
+                <p className={styles.skills_content_txt}>
+                    Essas são as ferramentas que utilizo diariamente nos meu projetos...
+                </p>
             </div>
             <div className={styles.skills_icons}>
                 <div className={styles.skills_icons_group}>
