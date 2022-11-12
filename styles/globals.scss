@@ -6,7 +6,7 @@
 html,
 body {
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  // font-size: 16px;
   background-color: $color-primary;
   color: $color-white;
   scroll-behavior: smooth;
@@ -34,5 +34,27 @@ ul, li {
   body {
     color: white;
     background: black;
+  }
+}
+
+html {
+  width: 100%;
+
+  @media (min-width: 1500px) {
+    font-size: 12px !important;
+  }
+  
+  font-size: 62.5%; // 10px
+  
+  @media (max-width: 1200px) {
+    font-size: 9px !important; // 9px;
+  }
+  
+  @media (max-width: 920px) {
+    font-size: 50% !important;
+  }
+  
+  @media (max-width: 720px) {
+    font-size: 48% !important;
   }
 }
