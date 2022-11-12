@@ -24,14 +24,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className={styles.home_main}>
-        <Header/>
         <MainPage/>
         <About/>
         <Skills/>
         <Projects/>
         <Contact/>
-      </div>
+        
     </div>
   )
 }

@@ -4,12 +4,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 20rem;
+    
+
+    @media (max-width: 400px) {
+        display: none;
+    }
+    
 
     &_menu {
-       display: flex;
-       justify-content: center;
-       gap: 2.5rem;
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem; 
+
+        @media (max-width: 1020px) {
+            display: none;
+        }
 
         a {
             font-size: 1.6rem;

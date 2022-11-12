@@ -4,9 +4,20 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    gap: 3rem;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 20rem;
+    padding: 2rem 10rem;
+
+    @media (max-width: 1200px){
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0; //temporario (achar uma solução melhor)
+    }
+
+    @media (max-width: 720px) {
+        padding: 2rem 3rem ;
+    }
 
     &_perfil {
         width: 30rem;
