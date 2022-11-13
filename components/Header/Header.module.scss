@@ -5,12 +5,6 @@
     justify-content: space-between;
     align-items: center;
     
-
-    @media (max-width: 400px) {
-        justify-content: center;
-    }
-    
-
     &_menu {
         display: flex;
         justify-content: center;
@@ -38,9 +32,6 @@
     
 
     &_action{
-        @media (max-width: 400px) {
-            display: none;
-        }
 
         &_button {
             background-color: transparent;
@@ -55,6 +46,20 @@
 
             &:hover {
                 background-color: #00000040;
+            }
+
+            @media (max-width: 1020px) {
+                display: none;
+            }
+        }
+        
+        &_mobile {
+            display: none;
+            font-size: 5rem;
+            color: $color-grey;
+
+            @media (max-width: 1020px) {
+                display: block;
             }
         }
     }

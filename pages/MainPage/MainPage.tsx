@@ -1,12 +1,14 @@
 import styles from './MainPage.module.scss';
 import Link from 'next/link';
 import Header from '../../components/Header/Header';
+import MenuMobile from '../../components/MenuMobile/MenuMobile';
 
 import handleNewTabLink from '../../components/handleNewTabLink';
 
 const MainPage = () => {
     return (
         <section className={styles.main_page}>
+            <MenuMobile/>
             <div className={styles.main_page_header}>
                 <Header/>
             </div>
