@@ -1,7 +1,8 @@
 import styles from './MenuMobile.module.scss';
 import handleNewTabLink from '../handleNewTabLink';
 
-const MenuMobile = () => {
+const MenuMobile = (props) => {
+    console.log(props.showMenu);
     return (
         <div className={styles.menu_mobile}>
             <ul className={styles.menu_mobile_options}>

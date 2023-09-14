@@ -1,5 +1,5 @@
 @import '../../styles/config.scss';
-.menu_mobile {
+.menu_mobile, .close {
     width: 0%;
     height: 100vh;
     background-color: #00000090;
@@ -44,3 +44,6 @@
     }
 }
 
+.close {
+    width: 0%;
+}

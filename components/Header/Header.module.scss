@@ -57,9 +57,15 @@
             display: none;
             font-size: 5rem;
             color: $color-grey;
+            cursor: pointer;
+            transition: .2s;
 
             @media (max-width: 1020px) {
                 display: block;
+            }
+
+            &:hover {
+                color: #bbb;
             }
         }
     }
